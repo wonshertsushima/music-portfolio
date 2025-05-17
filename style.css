@@ -1,0 +1,88 @@
+* {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #2c1e35, #3a2149);
+  color: #d8a0d7;
+  padding: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: #1f1b2c;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+h1, h2 {
+  color: #d46dcd;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+ul.links {
+  list-style: none;
+  padding: 0;
+}
+
+ul.links li {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+ul.links a {
+  color: #fff;
+  text-decoration: none;
+  background: #3e0e49;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+ul.links a:hover {
+  background: #5f2b6d;
+}
+
+.buttons a {
+  display: block;
+  margin: 0.5rem auto;
+  text-align: center;
+  background: #3e0e49;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  width: 80%;
+  transition: background 0.3s;
+}
+
+.buttons a:hover {
+  background: #6b4e8a;
+}
